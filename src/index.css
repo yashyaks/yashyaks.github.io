@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Kalnia&family=Poppins&family=Quicksand&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  background-color: #000000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.link-underline {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+  background-size: 0 3px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size .5s ease-in-out;
+}
+.link-underline-black {
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#060afb, #060afb)
+}
+.link-underline:hover {
+  background-size: 100% 3px;
+  background-position: 0 100%
+}
+
+.link-block {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+  background-size: 0 3px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size .5s ease-in-out;
+}
+.link-block-black {
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#060afb, #060afb)
+}
+
+.link-block:hover {
+  background-size: 100% 3px;
+  background-position: 0 100%
+}
