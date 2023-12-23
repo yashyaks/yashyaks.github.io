@@ -16,6 +16,10 @@ export default {
       'white': { DEFAULT: '#ffffff', 100: '#333333', 200: '#666666', 300: '#999999', 400: '#cccccc', 500: '#ffffff', 600: '#ffffff', 700: '#ffffff', 800: '#ffffff', 900: '#ffffff' } 
     },
     extend: {
+      backgroundImage: {
+        'hero': "url('./src/assets/hero.jpg')",
+      },
+
     },
     
     fontFamily: {
