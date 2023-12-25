@@ -5,7 +5,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { IoMdOpen } from "react-icons/io";
 import '../index.css'
-
+//align responsiveness of this sectiono with the rest of the page
+//handle overflow issue in description
+//fix button in the card
+//animate the highlight when hover and polish edges
 export default function Projects
 () {
     var settings = {
@@ -40,11 +43,14 @@ export default function Projects
       };
   
   return (
-    <div className='w-4/6 m-auto'>
+    <div className='w-5/6 m-auto'>
         <div className='mt-20'>
+          <div className='text-center font-Kalnia text-5xl md:text-7xl mb-8'>
+            Projects
+          </div>
             <Slider {...settings}>
             {data.map((d) => (
-                <div className='m-auto bg-[#0000] h-[450px] text-white rounded-xl'>
+                <div className='m-auto bg-[#0000] h-[450px] text-white rounded-xl hover:bg-risd_blue-100'>
                     <div className='h-56 rounded-t-xl flex justify-center items-center '>
                         <img src={d.image} className='h-54 w-96 m-2 rounded-xl'/>
                     </div>

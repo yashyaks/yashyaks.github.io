@@ -46,7 +46,7 @@ export default function Hero() {
       </div>
     </div>
     <div className="items-center">
-      <img className="w-96 md:w-full rounded-xl transition-all duration-1000 cursor-pointer filter ease-in-out grayscale hover:grayscale-0 hover:scale-105" src="./src/assets/hero-square.jpg" alt="Image Description"/>
+      <img className="w-96 md:w-full rounded-xl transition-all duration-1000 cursor-pointer filter ease-in-out hover:scale-105" src="./src/assets/hero-square.jpg" alt="Image Description"/>
     </div>
   </div>
 </div>
