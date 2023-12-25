@@ -46,6 +46,10 @@
 
 .link-block:hover {
   background-size: 100% 3px;
-  background-position: 0 100%
+  background-position: 0 100%;
+}
+
+.slick-slide > div{
+  margin: 0 15px;
 }
 

@@ -6,7 +6,7 @@ import { FaLinkedin,FaPhoneAlt,FaGithub } from "react-icons/fa";
 export default function Hero() {
   return (
 <>
-<div className="max-w-[85rem] max-h-screen items-center mx-auto my-10 px-4 sm:px-6  lg:px-8">
+<div className="max-w-[85rem] max-h-screen items-center mx-auto mb-36 px-4 sm:px-6  lg:px-8">
   <div className="items-center grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 ">
     <div >
     <div className="font-Quicksand font-bold text-white text-3xl">
@@ -46,8 +46,7 @@ export default function Hero() {
       </div>
     </div>
     <div className="items-center">
-      <img className="w-full rounded-full transition-all duration-1000 cursor-pointer filter ease-in-out grayscale hover:grayscale-0 hover:scale-105
-      " src="./src/assets/hero-square.jpg" alt="Image Description"/>
+      <img className="w-96 md:w-full rounded-xl transition-all duration-1000 cursor-pointer filter ease-in-out grayscale hover:grayscale-0 hover:scale-105" src="./src/assets/hero-square.jpg" alt="Image Description"/>
     </div>
   </div>
 </div>
