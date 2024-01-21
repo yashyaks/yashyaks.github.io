@@ -4,7 +4,7 @@ import { FaLinkedin,FaPhoneAlt,FaGithub } from "react-icons/fa";
 
 export default function Footer() {
   return (
-<footer className="max-w-[85rem] items-center mx-5 my-10 py-10 sm:mx-10 lg:mx-10 xl:mx-auto rounded-2xl bg-risd_blue-100">
+<footer className="max-w-[75rem] items-center mx-5 my-10 py-10 sm:mx-10 lg:mx-10 xl:mx-auto rounded-2xl bg-risd_blue-100">
   <div className=" items-center text-center">
     <div>
       <a className="flex-none text-2xl block font-Poppins font-bold text-white hover:text-risd_blue-400" href="#">🤖 yashyaks</a>

@@ -6,17 +6,23 @@ import { FaLinkedin,FaPhoneAlt,FaGithub } from "react-icons/fa";
 export default function Hero() {
   return (
 <>
-<div className="max-w-[85rem] max-h-screen items-center mx-auto mb-36 px-4 sm:px-6  lg:px-8">
+<div className="max-w-[75rem] max-h-screen items-center mx-auto mb-16 px-4 sm:px-6  lg:px-8">
   <div className="items-center grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 ">
-    <div >
-    <div className="font-Quicksand font-bold text-white text-3xl">
+  {/* <div className="PHOTO">
+      <img className="w-96 md:w-full rounded-3xl" src="./src/assets/hero-square.jpg" alt="Image Description"/>
+    </div> */}
+    <div className='INTRO'>
+    <div className=" mb-3 font-Poppins text-risd_blue-300">
+      AI ML Developer | Data Science
+      </div>
+    <div className="font-Poppins font-bold text-white text-2xl">
       Hey, I am
       </div>
-      <h1 className="font-Kalnia block text-4xl font-bold text-gray-800 sm:text-5xl lg:text-6xl xl:text-7xl lg:leading-tight text-white ">
-        <span className='link link-block link-block-black'>Yash Thakar</span>
+      <h1 className="font-Poppins block text-4xl font-bold text-gray-800 sm:text-5xl lg:text-6xl xl:text-7xl lg:leading-tight text-white ">
+        <span className=''>Yash Thakar</span>
         <span className="text-7xl font-black text-risd_blue-400">.</span>
       </h1>
-      <p className="font-Quicksand mt-3 text-justify text-md text-gray-800">
+      <p className="font-Poppins mt-3 text-justify text-md text-gray-800">
       I am an AI/ML Developer and a Data Science Enthusiast Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam incidunt adipisci facilis doloribus magnam quia quibusdam repellat doloremque explicabo ea, in, dolorem nobis! Laudantium, porro!
       </p>
       <div className="mt-7 text-center grid md:grid-cols-2 gap-4 md:gap-1 xl:gap-4  w-full sm:inline-flex">
@@ -45,8 +51,8 @@ export default function Hero() {
         </div>
       </div>
     </div>
-    <div className="items-center">
-      <img className="w-96 md:w-full rounded-xl transition-all duration-1000 cursor-pointer filter ease-in-out hover:scale-105" src="./src/assets/hero-square.jpg" alt="Image Description"/>
+  <div>
+      <img className="items-center justify-center w-96 md:w-full rounded-3xl" src="./src/assets/hero-square.jpg" alt="Image Description"/>
     </div>
   </div>
 </div>
