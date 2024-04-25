@@ -12,18 +12,17 @@ export default function Hero() {
       <img className="w-96 md:w-full rounded-3xl" src="./src/assets/hero-square.jpg" alt="Image Description"/>
     </div> */}
     <div className='INTRO'>
-    <div className=" mb-3 font-Poppins text-risd_blue-300">
-      AI ML Developer | Data Science
+    <div className=" mb-3 font-Poppins text-center text-risd_blue-300 lg:text-left">
+      AI ML Developer | Data Science Enthusiast
       </div>
-    <div className="font-Poppins font-bold text-white text-2xl">
-      Hey, I am
+    <div className="font-Poppins text-center font-bold text-white text-2xl lg:text-left">
+      Hey 👋, I am
       </div>
-      <h1 className="font-Poppins block text-4xl font-bold text-gray-800 sm:text-5xl lg:text-6xl xl:text-7xl lg:leading-tight text-white ">
-        <span className=''>Yash Thakar</span>
-        <span className="text-7xl font-black text-risd_blue-400">.</span>
+      <h1 className="font-Poppins block text-center text-4xl font-bold text-gray-800 sm:text-5xl lg:text-6xl lg:text-left xl:text-7xl lg:leading-tight text-white ">
+        <span className='font-Poppins block text-center text-5xl font-bold text-gray-800 sm:text-5xl lg:text-6xl lg:text-left xl:text-7xl lg:leading-tight text-white'>Yash Thakar</span>
       </h1>
-      <p className="font-Poppins mt-3 text-justify text-md text-gray-800">
-      I am an AI/ML Developer and a Data Science Enthusiast Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam incidunt adipisci facilis doloribus magnam quia quibusdam repellat doloremque explicabo ea, in, dolorem nobis! Laudantium, porro!
+      <p className="font-Poppins mt-3 text-center text-md lg:text-left text-gray-800">
+      Pre-Final Year Computer Science and Engineering (Data Science) undergraduate.
       </p>
       <div className="mt-7 text-center grid md:grid-cols-2 gap-4 md:gap-1 xl:gap-4  w-full sm:inline-flex">
         <a className="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-lg font-Quicksand font-black rounded-lg bg-risd_blue-400 text-white hover:bg-gradient-to-tr from-risd_blue-300 via-risd_blue-400 to-risd_blue-800" target="_blank" href="https://docs.google.com/document/d/1_IK71nIJ77u-8tQr04PBfPl1wu1PVgygkIMKDcqaFaA/edit?usp=sharing">

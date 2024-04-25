@@ -7,7 +7,10 @@ export default function Footer() {
 <footer className="max-w-[75rem] items-center mx-5 my-10 py-10 sm:mx-10 lg:mx-10 xl:mx-auto rounded-2xl bg-risd_blue-100">
   <div className=" items-center text-center">
     <div>
-      <a className="flex-none text-2xl block font-Poppins font-bold text-white hover:text-risd_blue-400" href="#">🤖 yashyaks</a>
+      <a class="flex items-center justify-center text-2xl font-Poppins text-white hover:text-risd_blue-400" href="#">
+      <img src="./public/emoji_robot.svg" alt="Description" class="w-6 h-6 mb-1 mr-2" /> 
+      <span>yashyaks</span>
+    </a>
     </div>
     <div className="mt-3">
       <p className="font-Quicksand text-xl text-white">Yash Thakar</p>
