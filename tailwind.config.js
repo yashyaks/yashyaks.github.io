@@ -23,8 +23,6 @@ export default {
     },
     
     fontFamily: {
-      Alice: ['Alice', 'serif'],
-      Kalnia: ['Kalnia', 'serif'],
       Poppins: ['Poppins', 'sans-serif'],
       Quicksand: ['Quicksand','sans-serif'],
     },

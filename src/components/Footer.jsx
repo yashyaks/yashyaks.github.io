@@ -18,9 +18,9 @@ export default function Footer() {
 
 <div className="flex justify-around items-start my-5"></div>
     <div className="mt-3 space-x-2">
-      <a className="inline-flex justify-center items-center w-10 h-10 text-center text-white rounded-full hover:text-risd_blue-400 hover:bg-white" target="_blank" href="tel:+91 8291006737">
+      {/* <a className="inline-flex justify-center items-center w-10 h-10 text-center text-white rounded-full hover:text-risd_blue-400 hover:bg-white" target="_blank" href="tel:+91 8291006737">
         <FaPhoneAlt/>
-      </a>
+      </a> */}
       <a className="inline-flex justify-center items-center w-10 h-10 text-center text-white rounded-full hover:text-risd_blue-400 hover:bg-white" target="_blank"  href="mailto:yashthakar2710@gmail.com">
         <HiOutlineMail/>
       </a>
