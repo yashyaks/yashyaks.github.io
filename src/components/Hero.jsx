@@ -13,7 +13,7 @@ export default function Hero() {
           alt="Profile"
           className="rounded-full mb-4 w-32 lg:w-40"
         />
-        <h2 className="text-xl lg:text-2xl font-bold">Yash Thakar</h2>
+        <h2 className="text-xl lg:text-2xl font-bold link link-underline link-underline-black">Yash Thakar</h2>
         <ul className="flex flex-row lg:flex-col mt-4 text-md">
 
           <li className="flex items-center">
@@ -22,20 +22,6 @@ export default function Hero() {
             </span>
             <a
               href="https://github.com/yashyaks"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hidden lg:block hover:underline"
-            >
-              yashyaks
-            </a>
-          </li>
-
-          <li className="flex items-center">
-            <span className="m-2 text-white">
-              <FaHashnode size={25} />
-            </span>
-            <a
-              href="https://yashyaks.hashnode.dev/"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden lg:block hover:underline"

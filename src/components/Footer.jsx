@@ -15,8 +15,8 @@ export default function Footer() {
         <span>yashyaks</span>
       </a>
     </div>
-    <div className="mt-3">
-      <p className="font-Quicksand text-xl text-white">Yash Thakar</p>
+    <div className="font-Poppins text-white mt-3">
+      <p className="text-xl">Yash Thakar</p>
       <p>&copy; {year}</p>
     </div>
 

@@ -68,25 +68,13 @@ export default function Navbar() {
             <li className="flex items-center mb-4">
               <span className="mr-8 text-white">
                 <a
-                  href="https://yashyaks.hashnode.dev/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-md lg:text-lg font-Poppins text-white hover:underline"
-                >
-                </a>
-                <FaLinkedin />
-              </span>
-            </li>
-            <li className="flex items-center mb-4">
-              <span className="mr-8 text-white">
-                <a
                   href="https://linkedin.com/in/thakaryash"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-md lg:text-lg font-Poppins text-white hover:underline"
                 >
                 </a>
-                <FaHashnode />
+                <FaLinkedin />
               </span>
             </li>
             <li className="flex items-center mb-4">
