@@ -1,6 +1,7 @@
 import React from 'react'
 import { HiOutlineMail } from "react-icons/hi";
-import { FaLinkedin,FaPhoneAlt,FaGithub } from "react-icons/fa";
+import { FaLinkedin,FaGithub } from "react-icons/fa";
+import { FaHashnode } from "react-icons/fa6";
 const d = new Date();
 let year = d.getFullYear();
 
@@ -21,18 +22,20 @@ export default function Footer() {
 
 <div className="flex justify-around items-start my-5"></div>
     <div className="mt-3 space-x-2">
-      <a className="inline-flex justify-center items-center w-12 h-12 text-center text-white rounded-full hover:text-black hover:bg-white" target="_blank"  href="mailto:yashthakar2710@gmail.com">
-        <HiOutlineMail size={25}/>
-      </a>
-      <a className="inline-flex justify-center items-center w-12 h-12 text-center text-white rounded-full hover:text-black hover:bg-white" target="_blank" href="https://www.linkedin.com/in/thakaryash/">
-        <FaLinkedin size={25}/>
-      </a>
       <a className="inline-flex justify-center items-center w-12 h-12 text-center text-white rounded-full hover:text-black hover:bg-white" target="_blank" href="https://github.com/yashyaks/">
         <FaGithub size={25}/>
       </a>
+
       <a className="inline-flex justify-center items-center w-12 h-12 text-center text-white rounded-full hover:text-black hover:bg-white" target="_blank" href="https://github.com/yashyaks/">
-        <img className="h-7" src="/blog.png" alt="Blog logo">
-        </img>
+        <FaHashnode size={25}/>
+      </a>
+
+      <a className="inline-flex justify-center items-center w-12 h-12 text-center text-white rounded-full hover:text-black hover:bg-white" target="_blank" href="https://www.linkedin.com/in/thakaryash/">
+        <FaLinkedin size={25}/>
+      </a>
+      
+      <a className="inline-flex justify-center items-center w-12 h-12 text-center text-white rounded-full hover:text-black hover:bg-white" target="_blank"  href="mailto:yashthakar2710@gmail.com">
+        <HiOutlineMail size={25}/>
       </a>
 
     </div>

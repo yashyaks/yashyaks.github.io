@@ -9,12 +9,23 @@ export default {
 
   theme: {
     colors:
-      {'black': { DEFAULT: '#000000'}, 
-
-      'blue': { DEFAULT: '#474bfc', 100: '#01023f', 200: '#02047f', 300: '#0306be', 400: '#060afb', 500: '#474bfc', 600: '#6a6dfd', 700: '#8f91fd', 800: '#b5b6fe', 900: '#dadafe' }, 
-      
-      'white': { DEFAULT: '#ffffff'},
+      {
+      'background':{DEFAULT: '#020617', light: '#0f172a'},
+      'black': { DEFAULT: '#000000'}, 
+      'blue': { DEFAULT: '#2563eb'}, 
+      'white': { DEFAULT: '#ffffff', light: '#f8fafc'},
       'gray': {DEFAULT: '#1e293b'}
+    },
+    fontWeight: {
+      thin: '100',
+      extralight: '200',
+      light: '300',
+      normal: '400',
+      medium: '500',
+      semibold: '600',
+      bold: '700',
+      extrabold: '800',
+      black: '900',
     },
     extend: {
       backgroundImage: {
@@ -25,7 +36,6 @@ export default {
     
     fontFamily: {
       Poppins: ['Poppins', 'sans-serif'],
-      Quicksand: ['Quicksand','sans-serif'],
     },
 
   },
