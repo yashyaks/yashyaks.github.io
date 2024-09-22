@@ -1,71 +1,65 @@
-import React from 'react'
-import { data } from "./constants";
-import Slider from 'react-slick';
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
-import { IoMdOpen } from "react-icons/io";
-import '../index.css'
-//align responsiveness of this sectiono with the rest of the page
-//handle overflow issue in description
+import React from 'react';
+import { HiOutlineMail } from 'react-icons/hi';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaHashnode } from "react-icons/fa6";
+import Navbar from './Navbar';
+import Footer from './Footer';
+import Sidebar from './Sidebar';
 
-export default function Projects
-() {
-    var settings = {
-        infinite: false,
-        slidesToShow: 3,
-        slidesToScroll: 2,
-        initialSlide: 0, 
-        speed: 1000,
-        responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1,
-            }
-          },
-          {
-            breakpoint: 800,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1
-            }
-          }
-        ]
-      };
-  
+export default function Hero() {
   return (
-    <div className='max-w-[70rem] m-auto'>
-        <div className='mt-20'>
-          <div className='text-left font-Poppins text-5xl md:text-7xl mb-8 ml-8'>
+    <>
+      <Navbar/>
+      <div className="max-w-[80rem] font-Poppins w-full mx-auto px-4 sm:px-6 lg:px-8 mb-6 flex flex-col lg:flex-row">
+        <Sidebar/>
+        <main className="border-2 rounded-lg border-gray w-full lg:w-3/4 p-4 sm:p-8">
+          <h1 className="border-b-2 border-b-gray text-2xl font-semibold sm:text-3xl mb-6">
             Projects
-          </div>
-            <Slider {...settings}>
-            {data.map((d) => (
-                <div className='m-auto bg-[#0000] h-[450px] text-white rounded-xl'>
-                    <div className='rounded-t-xl flex justify-center items-center overflow-hidden h-48 w-full'>
-                        <img src={d.image} className='m-2 rounded-xl object-cover h-full w-full' />
-                    </div>
-                    <div className='flex flex-col items-center justify-center gap-4 p-4'>
-                        <p className='text-2xl text-center font-Poppins font-bold link link-block link-block-black'>{d.title}</p>
-                        <p className='text-base mx-auto font-Poppins text-center'>{d.content}</p>
-                        <a className="py-3 px-4 m-auto inline-flex justify-center items-center gap-x-2 text-lg font-Quicksand font-black rounded-lg bg-risd_blue-400 text-white hover:bg-gradient-to-tr from-risd_blue-300 via-risd_blue-400 to-risd_blue-800" target="_blank" href={d.url}>
-                          Github
-                          <IoMdOpen />
-                        </a>
-                    </div>
-                </div>
-            ))}
-            </Slider> 
-        </div>
+          </h1>
 
-    </div>
-  )
+          <section>
+            <h2 className="text-xl font-semibold mb-4">AirViz - Big Data Pipeline</h2>
+            <ul className="ml-5 mb-6 list-disc">
+              <li>Developed a data pipeline for ETL to transfer data from Amazon RDS (PostgreSQL engine) to an AWS Redshift data warehouse using AWS Glue and a spark runtime in AWS.</li>
+              <li>Visualized airline flight schedules, airport connections, and airline delays and cancellations using PowerBI.</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-semibold mb-4">Olist’s E-commerce Insights</h2>
+            <ul className="ml-5 mb-6 list-disc">
+              <li>Unveiled insights and trends from the Olist data and derived customer segments using RFM analysis.</li>
+              <li>Developed ML models for customer segmentation, sales prediction, churn classification, and sentiment analysis.</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-semibold mb-4">Phishing Detector</h2>
+            <ul className="ml-5 mb-6 list-disc">
+              <li>Developed a neural-network-based Phishing Link Detection model that uses 111 features, DNS data, and queries whois data for accurate link classification.</li>
+              <li>Conducted image similarity analysis to examine lookalike website structures.</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-semibold mb-4">PJM Regional Electricity Consumption - Time Series Modeling</h2>
+            <ul className="ml-5 mb-6 list-disc">
+              <li>Researched the efficacy of time series models like ARIMA, SARIMA, GARCH, VAR, and CNN models for power consumption analysis.</li>
+              <li>Uncovered trends and factors for energy policy and resource optimization.</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-semibold mb-4">Hybrid Quantum-Classical CNN for Audio Classification</h2>
+            <ul className="ml-5 mb-6 list-disc">
+              <li>Developed a QC-CNN architecture using the Qiskit Machine Learning library to perform audio classification using an explainable mel-spectrogram approach on different dataset sizes.</li>
+              <li>Compared performance with classical models.</li>
+            </ul>
+          </section>
+
+        </main>
+      </div>
+      <Footer/>
+    </>
+  );
 }
