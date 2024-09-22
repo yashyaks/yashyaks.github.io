@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { HiOutlineMenu, HiOutlineX } from 'react-icons/hi';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
-import { FaHashnode } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
+
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,14 +19,22 @@ export default function Navbar() {
             {isOpen ? <HiOutlineX size={25} /> : <HiOutlineMenu size={25}/>}
           </button>
           <a className="flex items-center text-3xl lg:text-4xl font-semibold font-Poppins text-white  mx-auto lg:mx-0">
-            <img src="./public/LOGO.png" alt="Description" className="w-[166.67px] h-[41.66px] sm:w-[250px] sm:h-[62.5px] lg:mr-2" />
+          <Link to="/">
+            <img src="/LOGO.png" alt="Description" className="w-[166.67px] h-[41.66px] sm:w-[250px] sm:h-[62.5px] lg:mr-2" />
+          </Link>
           </a>
         </div>
 
         {/* Mobile Menu */}
         <nav className={`fixed top-0 left-0 lg:w-full lg:justify-end w-[80vw] h-full bg-background-light lg:bg-background transition-transform transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} lg:static lg:flex lg:translate-x-0 lg:h-auto z-20`}>
           <div className="lg:hidden p-6 pl-8 flex items-center bg-background">
-            <img src="./public/LOGO.png" alt="Description" className="w-[166.67px] h-[41.66px] sm:w-[200px] sm:h-[50px] lg:mr-2" />
+          <Link to="/">
+            <img
+              src="/LOGO.png"
+              alt="Description"
+              className="w-[166.67px] h-[41.66px] sm:w-[200px] sm:h-[50px] lg:mr-2"
+            />
+          </Link>
             <button onClick={toggleMenu} className="text-white ml-auto">
               <HiOutlineX size={25} />
             </button>
@@ -62,7 +71,7 @@ export default function Navbar() {
                   className="text-md lg:text-lg font-Poppins text-white hover:underline"
                 >
                 </a>
-                <FaGithub />
+                <FaGithub size={20}/>
               </span>
             </li>
             <li className="flex items-center mb-4">
@@ -74,14 +83,14 @@ export default function Navbar() {
                   className="text-md lg:text-lg font-Poppins text-white hover:underline"
                 >
                 </a>
-                <FaLinkedin />
+                <FaLinkedin size={20}/>
               </span>
             </li>
             <li className="flex items-center mb-4">
               <span className="mr-8 text-white">
               <a href="mailto:yashthakar2710@gmail.com" className="text-md lg:text-lg font-Poppins text-white hover:underline">
               </a>
-                <HiOutlineMail />
+                <HiOutlineMail size={20} />
               </span>
             </li>
           </ul>

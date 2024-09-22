@@ -1,19 +1,20 @@
 import './App.css'
-import Footer from './components/Footer'
-import Navbar from './components/Navbar'
 import Projects from './components/Projects'
 import Hero from './components/Hero'
-import Experience from './components/Experience'
-//find a better serif font
-//fix the colors in tailwind.config.js
+import Resume from './components/Resume'
+
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+
 
 function App() {
   return (
-    <>
-    <Navbar/>
-    <Hero/>
-    <Footer/>
-    </>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Hero/>} />
+        <Route path='/projects' element={<Projects/>} />
+        <Route path='/resume' element={<Resume/>} />
+      </Routes>
+    </Router>
   )
 }
 
