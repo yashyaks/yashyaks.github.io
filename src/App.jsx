@@ -3,7 +3,7 @@ import Projects from './components/Projects'
 import Hero from './components/Hero'
 import Resume from './components/Resume'
 
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import {HashRouter as Router, Routes, Route} from 'react-router-dom';
 
 
 function App() {
