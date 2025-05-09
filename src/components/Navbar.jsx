@@ -13,7 +13,7 @@ export default function Navbar() {
 
   return (
     <>
-      <header className='relative max-w-[95rem] w-full mx-auto px-10 py-9 mb-9 flex justify-between items-center'>
+      <header className='relative max-w-[95rem] w-full mx-auto px-10 pb-10 pt-9 flex justify-between items-center'>
         <div className="flex items-center w-full justify-between">
           <button onClick={toggleMenu} className="text-white lg:hidden">
             {isOpen ? <HiOutlineX size={25} /> : <HiOutlineMenu size={25}/>}
@@ -39,7 +39,7 @@ export default function Navbar() {
               <HiOutlineX size={25} />
             </button>
           </div>
-          <ul className="flex flex-col text-md lg:text-3xl font-Poppins text-white font-medium  lg:flex-row lg:items-center p-6 ml-4 lg:p-0">
+          <ul className="flex flex-col text-md lg:text-2xl font-Poppins text-white font-medium  lg:flex-row lg:items-center p-6 ml-4 lg:p-0">
             <li className="mb-4 lg:mb-0 lg:mr-6">
               <a className="link link-underline link-underline-black" href="/#/projects">
                 Projects

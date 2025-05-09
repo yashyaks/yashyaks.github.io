@@ -14,7 +14,7 @@ export default {
       'black': { DEFAULT: '#000000'}, 
       'blue': { DEFAULT: '#2563eb'}, 
       'white': { DEFAULT: '#ffffff', light: '#f8fafc'},
-      'gray': {DEFAULT: '#1e293b'}
+      'gray': {DEFAULT: '#1e293b', }
     },
     fontWeight: {
       thin: '100',

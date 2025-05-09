@@ -21,10 +21,24 @@ export default function Hero() {
           <section className='mb-6'>
             <div className="flex flex-col sm:flex-row justify-between font-medium text-lg text-white">
               <h2>B.Tech Computer Science & Engineering - Data Science</h2>
-              <p className="text-sm sm:text-lg">Expected 2025</p>
+              <p className="text-sm sm:text-lg">2025</p>
             </div>
             <p className='text-white'>Honors in Computational Finance</p>
-            <p className='text-white'>DJSCE, University of Mumbai (CGPA: 8.13)</p>
+            <p className='text-white'>DJSCE, University of Mumbai (CGPA: 8.25)</p>
+          </section>
+          <section className='mb-6'>
+            <div className="flex flex-col sm:flex-row justify-between font-medium text-lg text-white">
+              <h2>HSC, 12th Board Examination</h2>
+              <p className="text-sm sm:text-lg">2021</p>
+            </div>
+            <p className='text-white'>Nirmala Memorial Foundation Junior College (96.5%)</p>
+          </section>
+          <section className='mb-6'>
+            <div className="flex flex-col sm:flex-row justify-between font-medium text-lg text-white">
+              <h2>SSC, 10th Board Examination</h2>
+              <p className="text-sm sm:text-lg">2019</p>
+            </div>
+            <p className='text-white'>Thakur Vidya Mandir High School (93.2%)</p>
           </section>
 
           {/* Experience Section */}
@@ -60,12 +74,19 @@ export default function Hero() {
 
           {/* Awards and Achievements */}
           <h1 className="border-b-2 border-b-gray text-2xl sm:text-3xl font-semibold mb-6">
-            Awards and Achievements
+            Achievements
           </h1>
           <div className='mb-6'>
-            <h2 className="text-lg text-white">Top 20 in Retirement Industry AI Hackathon: T3 Hack, TIAA</h2>
+            <h2 className="text-lg font-medium text-white">Top 20 in Retirement Industry AI Hackathon: T3 Hack, TIAA</h2>
             <p>
               Our team reached the semifinals and achieved a Top-20 ranking nationally at the Retirement Industry AI Hackathon: T3 Hack, a national-level competition organised by TIAA with over 2000 participants.
+            </p>
+            </div>
+            <div className='mb-6'>
+            <h2 className="text-lg font-medium text-white">Research Published in IEEE Xplore</h2>
+            <p>
+            We presented a paper titled “Performance Analysis of Hybrid Quantum-Classical Convolutional Neural Networks for Audio Classification” at 15th ICCCNT, IIT Mandi, in which we developed a QC-CNN architecture to perform audio classification using mel-spectrograms and achieved comparative performance with classical models.
+
             </p>
           </div>
 
@@ -74,6 +95,7 @@ export default function Hero() {
             Certifications
           </h1>
           <ul className="ml-5 mb-6 list-disc text-white">
+            <li>Fundamentals of Accelerated Computing with CUDA Python, NVIDIA</li>
             <li>AWS Academy Cloud Architecting</li>
             <li>AWS Academy Data Engineering</li>
             <li>AWS Academy Machine Learning Foundations</li>
@@ -106,7 +128,7 @@ export default function Hero() {
             <a
               href="/Yash Thakar Resume.pdf"
               download
-              className="max-w-xs mt-4 bg-blue text-white font-medium px-4 py-2 rounded-full border-2 border-blue hover:bg-blue hover:border-2 hover:border-white transition duration-300"
+              className="max-w-xs mt-4 bg-blue text-white font-medium px-4 py-2 rounded-lg border-2 border-blue hover:bg-blue hover:border-2 hover:border-white transition duration-300"
             >
               Download Resume
             </a>

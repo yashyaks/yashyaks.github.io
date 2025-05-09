@@ -5,12 +5,22 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa';
 export default function Sidebar() {
   return (
     <aside className="w-full lg:w-1/4 h-auto lg:sticky top-0 p-4 bg-gray-100 font-Poppins flex flex-col items-center">
-      <img
+      {/* <div class="absolute inset-0 rounded-full bg-white blur-xl opacity-40 z-0"></div> */}
+      {/* <img
         src="/hero-square.jpg"
         alt="Profile"
         className="rounded-full mb-4 w-32 lg:w-40"
-      />
-      <h2 className="text-xl lg:text-2xl font-bold link link-underline link-underline-black">Yash Thakar</h2>
+      /> */}
+      <div class="relative w-40 h-40 ">
+
+        <div class="absolute inset-0 rounded-full bg-blue blur-xl opacity-75 z-0"></div>
+
+        <img src="/hero-square.jpg" alt="Avatar"
+            class="relative rounded-full w-full h-full z-20 border-2 border-blue object-cover"/>
+      </div>
+
+
+      <h2 className="mt-6 text-xl lg:text-2xl font-bold link link-underline link-underline-black">Yash Thakar</h2>
       <ul className="flex flex-row lg:flex-col mt-4 text-md">
 
         <li className="flex items-center">
