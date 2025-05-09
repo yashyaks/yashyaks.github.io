@@ -6,7 +6,7 @@ export default function Sidebar() {
   return (
     <aside className="w-full lg:w-1/4 h-auto lg:sticky top-0 p-4 bg-gray-100 font-Poppins flex flex-col items-center">
       <img
-        src="./src/assets/hero-square.jpg"
+        src="/hero-square.jpg"
         alt="Profile"
         className="rounded-full mb-4 w-32 lg:w-40"
       />
