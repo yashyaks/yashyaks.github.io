@@ -41,12 +41,12 @@ export default function Navbar() {
           </div>
           <ul className="flex flex-col text-md lg:text-3xl font-Poppins text-white font-medium  lg:flex-row lg:items-center p-6 ml-4 lg:p-0">
             <li className="mb-4 lg:mb-0 lg:mr-6">
-              <a className="link link-underline link-underline-black" href="/projects">
+              <a className="link link-underline link-underline-black" href="/#/projects">
                 Projects
               </a>
             </li>
             <li className="mb-4 lg:mb-0 lg:mr-6">
-              <a className="link link-underline link-underline-black" href="/resume">
+              <a className="link link-underline link-underline-black" href="/#/resume">
                 Resume
               </a>
             </li>
