@@ -34,7 +34,7 @@ export default function Footer() {
         <FaLinkedin size={25}/>
       </a>
       
-      <a className="inline-flex justify-center items-center w-12 h-12 text-center text-white rounded-full hover:text-black hover:bg-white" target="_blank"  href="mailto:yashthakar2710@gmail.com">
+      <a className="inline-flex justify-center items-center w-12 h-12 text-center text-white rounded-full hover:text-black hover:bg-white" target="_blank"  href="https://mail.google.com/mail/?view=cm&fs=1&to=yashthakar2710@gmail.com">
         <HiOutlineMail size={25}/>
       </a>
 

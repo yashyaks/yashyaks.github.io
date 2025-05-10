@@ -88,7 +88,7 @@ export default function Navbar() {
             </li>
             <li className="flex items-center mb-4">
               <span className="mr-8 text-white">
-              <a href="mailto:yashthakar2710@gmail.com" className="text-md lg:text-lg font-Poppins text-white hover:underline">
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=yashthakar2710@gmail.com" className="text-md lg:text-lg font-Poppins text-white hover:underline">
               <HiOutlineMail size={20} />
               </a>
               </span>

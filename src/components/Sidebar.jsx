@@ -30,7 +30,7 @@ export default function Sidebar() {
           </a>
         </li>
         <li className="flex items-center">
-          <a href="mailto:yashthakar2710@gmail.com" className="flex items-center text-white hover:underline">
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=yashthakar2710@gmail.com" className="flex items-center text-white hover:underline">
             <HiOutlineMail size={25} className="m-2" />
             <span className="hidden lg:block">yashthakar2710@gmail.com</span>
           </a>
