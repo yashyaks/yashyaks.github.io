@@ -18,22 +18,24 @@ export default function Navbar() {
           <button onClick={toggleMenu} className="text-white lg:hidden">
             {isOpen ? <HiOutlineX size={25} /> : <HiOutlineMenu size={25}/>}
           </button>
-          <a className="flex items-center text-3xl lg:text-4xl font-semibold font-Poppins text-white  mx-auto lg:mx-0">
+          <a className="flex items-center text-2xl lg:text-2xl font-semibold font-Poppins text-white  mx-auto lg:mx-0">
           <Link to="/">
-            <img src="/LOGO.png" alt="Description" className="w-[166.67px] h-[41.66px] sm:w-[250px] sm:h-[62.5px] lg:mr-2" />
+            {/* <img src="/LOGO.png" alt="Description" className="w-[166.67px] h-[41.66px] sm:w-[250px] sm:h-[62.5px] lg:mr-2" /> */}
+            yashyaks
           </Link>
           </a>
         </div>
 
         {/* Mobile Menu */}
         <nav className={`fixed top-0 left-0 lg:w-full lg:justify-end w-[80vw] h-full bg-background-light lg:bg-background transition-transform transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} lg:static lg:flex lg:translate-x-0 lg:h-auto z-20`}>
-          <div className="lg:hidden p-6 pl-8 flex items-center bg-background">
+          <div className="text-xl font-semibold font-Poppins lg:hidden p-6 pl-8 flex items-center bg-background ">
           <Link to="/">
-            <img
+            {/* <img
               src="/LOGO.png"
               alt="Description"
               className="w-[166.67px] h-[41.66px] sm:w-[200px] sm:h-[50px] lg:mr-2"
-            />
+            /> */}
+            yashyaks
           </Link>
             <button onClick={toggleMenu} className="text-white ml-auto">
               <HiOutlineX size={25} />
