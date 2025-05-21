@@ -123,7 +123,7 @@ export default function Hero() {
             </div>
           </section>
 
-          {/* Download Resume Button */}
+          {/* Download Resume Button
           <div className='flex justify-center items-center'>
             <a
               href="/Yash Thakar Resume.pdf"
@@ -132,7 +132,7 @@ export default function Hero() {
             >
               Download Resume
             </a>
-          </div>
+          </div> */}
         </main>
       </div>
       <Footer />

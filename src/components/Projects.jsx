@@ -13,7 +13,7 @@ export default function Hero() {
       <div className="max-w-[80rem] font-Poppins w-full mx-auto px-4 sm:px-6 lg:px-8 mb-6 flex flex-col lg:flex-row">
         <Sidebar/>
         <main className="border-2 rounded-lg border-gray w-full lg:w-3/4 p-4 sm:p-8">
-          <h1 className="text-3xl font-semibold mb-6 text-purple-300 border-b pb-2 border-gray">Projects</h1>
+          <h1 className="text-3xl font-semibold text-purple-300 border-b pb-2 border-gray">Projects</h1>
 
           {[ 
             {
@@ -68,7 +68,7 @@ export default function Hero() {
           ].map((project, idx) => (
             <section
               key={idx}
-              className="bg-black border border-gray rounded-lg p-5 mb-6 shadow-md"
+              className="bg-black border-b border-gray py-5 shadow-md"
             >
               <h2 className="text-xl font-semibold text-white mb-3">{project.title}</h2>
               <ul className="list-disc ml-5 text-white space-y-2">

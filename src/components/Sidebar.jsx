@@ -1,8 +1,11 @@
 import React from 'react';
 import { HiOutlineMail } from 'react-icons/hi';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { useLocation } from 'react-router-dom';
 
 export default function Sidebar() {
+  const location = useLocation();
+
   return (
     <aside className="w-full lg:w-1/4 h-auto lg:sticky top-0 p-4 bg-gray-100 font-Poppins flex flex-col items-center relative z-10">
       <div className="relative w-40 h-40">
@@ -36,6 +39,17 @@ export default function Sidebar() {
           </a>
         </li>
       </ul>
+
+      {/* 🔽 Conditional download button */}
+      {location.pathname === "/resume" && (
+        <a
+          href="/Yash Thakar Resume.pdf"
+          download
+          className="mt-4 bg-blue text-white font-medium px-4 py-2 rounded-lg border-2 border-blue hover:bg-blue hover:border-white transition duration-300"
+        >
+          Download Resume
+        </a>
+      )}
     </aside>
   );
 }

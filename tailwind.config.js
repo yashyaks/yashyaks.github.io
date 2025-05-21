@@ -13,7 +13,7 @@ export default {
       'background':{DEFAULT: '#000000', light: '#18181a'},
       'black': { DEFAULT: '#000000'}, 
       'blue': { DEFAULT: '#2563eb'}, 
-      'white': { DEFAULT: '#ffffff', light: '#f8fafc'},
+      'white': { DEFAULT: '#ffffff', light: '#969696'},
       'gray': {DEFAULT: '#1e293b', }
     },
     fontWeight: {
