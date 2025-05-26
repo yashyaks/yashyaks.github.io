@@ -51,7 +51,7 @@ export default function Navbar() {
               </a>
             </li>
             <li className="mb-4 lg:mb-0">
-              <a className="link link-underline link-underline-black" href="https://yashyaks.hashnode.dev/">
+              <a className="link link-underline link-underline-black" href="/#/blog">
                 Blog
               </a>
             </li>
