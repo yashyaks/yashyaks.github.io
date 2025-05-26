@@ -77,7 +77,7 @@ export default function Navbar() {
             <li className="flex items-center mb-4">
               <span className="mr-8 text-white">
                 <a
-                  href="https://linkedin.com/in/thakaryash"
+                  href="https://linkedin.com/in/yashthakar2710"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-md lg:text-lg font-Poppins text-white hover:underline"

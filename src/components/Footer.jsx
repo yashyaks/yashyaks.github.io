@@ -44,7 +44,7 @@ export default function Footer() {
             className="inline-flex justify-center items-center w-10 h-10 text-white rounded-full hover:text-black hover:bg-white transition"
             target="_blank"
             rel="noopener noreferrer"
-            href="https://www.linkedin.com/in/thakaryash/"
+            href="https://www.linkedin.com/in/yashthakar2710/"
           >
             <FaLinkedin size={25} />
           </a>

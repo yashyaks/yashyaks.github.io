@@ -27,9 +27,9 @@ export default function Sidebar() {
           </a>
         </li>
         <li className="flex items-center">
-          <a href="https://linkedin.com/in/thakaryash" target="_blank" rel="noopener noreferrer" className="flex items-center text-white hover:underline">
+          <a href="https://linkedin.com/in/yashthakar2710" target="_blank" rel="noopener noreferrer" className="flex items-center text-white hover:underline">
             <FaLinkedin size={25} className="m-2" />
-            <span className="hidden lg:block">thakaryash</span>
+            <span className="hidden lg:block">yashthakar2710</span>
           </a>
         </li>
         <li className="flex items-center">
