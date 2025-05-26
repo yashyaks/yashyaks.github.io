@@ -64,22 +64,12 @@ const BlogPost = () => {
           />
         )}
 
-        {/* Centered Title, Subtitle, and Meta Info */}
         <div className="text-center max-w-3xl mx-auto mb-10">
           <h1 className="text-4xl font-extrabold mb-2">{post.title}</h1>
-
           {post.subtitle && (
-            <p className="text-xl text-white-light mb-4">{post.subtitle}</p>
+            <p className="text-xl text-gray-300 mb-4">{post.subtitle}</p>
           )}
-
           <div className="flex items-center justify-center text-sm text-gray-400 space-x-2">
-            {post.author?.profilePicture && (
-              <img
-                src={post.author.profilePicture}
-                alt={post.author.name}
-                className="w-8 h-8 rounded-full"
-              />
-            )}
             <span>{post.author.name}</span>
             <span>•</span>
             <span>
@@ -97,7 +87,7 @@ const BlogPost = () => {
         </div>
 
         {/* Blog Content */}
-        <article className="prose prose-invert prose-lg max-w-none">
+        <article className="prose prose-invert prose-lg max-w-none prose-headings:mt-8 prose-headings:mb-4 prose-p:mb-4 prose-img:rounded-lg prose-img:my-6">
           <div dangerouslySetInnerHTML={{ __html: post.content.html }} />
         </article>
 
@@ -109,7 +99,7 @@ const BlogPost = () => {
               {post.tags.map((tag) => (
                 <span
                   key={tag.slug}
-                  className="bg-gray-700 text-sm text-white pr-3 py-1 rounded-full hover:bg-gray-600 transition"
+                  className="bg-gray-700 text-sm text-white px-3 py-1 rounded-full hover:bg-gray-600 transition"
                 >
                   {tag.name}
                 </span>

@@ -32,14 +32,14 @@ export default function Footer() {
           >
             <FaGithub size={25} />
           </a>
-          <a
+          {/* <a
             className="inline-flex justify-center items-center w-10 h-10 text-white rounded-full hover:text-black hover:bg-white transition"
             target="_blank"
             rel="noopener noreferrer"
             href="https://hashnode.com/@yashyaks"
           >
             <FaHashnode size={25} />
-          </a>
+          </a> */}
           <a
             className="inline-flex justify-center items-center w-10 h-10 text-white rounded-full hover:text-black hover:bg-white transition"
             target="_blank"
