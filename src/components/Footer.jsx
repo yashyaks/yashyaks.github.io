@@ -8,7 +8,7 @@ let year = d.getFullYear();
 
 export default function Footer() {
   return (
-    <footer className="max-w-full pt-12 pb-32 px-24 border-t-2 border-t-gray bg-black text-white font-Poppins">
+    <footer className="max-w-full pt-12 pb-32 px-24 border-t-2 border-t-gray text-white font-Poppins">
       <div className="flex flex-col lg:flex-row justify-between items-center">
         {/* Centered Logo and Name */}
         <div className="flex flex-col">

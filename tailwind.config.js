@@ -10,7 +10,7 @@ export default {
   theme: {
     colors:
       {
-      'background':{DEFAULT: '#000000', light: '#18181a'},
+      'background':{DEFAULT: '#09090b', light: '#18181a', nav: '#141416'},
       'black': { DEFAULT: '#000000'}, 
       'blue': { DEFAULT: '#2563eb'}, 
       'white': { DEFAULT: '#ffffff', light: '#969696'},
