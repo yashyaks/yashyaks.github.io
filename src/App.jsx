@@ -10,7 +10,7 @@ import {HashRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
   return (
-    <Router basename="/">
+    <Router basename="/portfolio">
       <Routes>
         <Route exact path='/' element={<Hero/>} />
         <Route path='/projects' element={<Projects/>} />
