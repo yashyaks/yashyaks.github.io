@@ -80,8 +80,6 @@ const BlogPost = () => {
               })}
             </span>
             <span>•</span>
-            <span>{post.views ?? 0} views</span>
-            <span>•</span>
             <span>{Math.ceil(post.content.html.split(" ").length / 200)} min read</span>
           </div>
         </div>
