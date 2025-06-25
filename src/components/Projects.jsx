@@ -21,7 +21,8 @@ export default function Hero() {
               bullets: [
                 "Developed a multi-objective optimization algorithm integrating TOPSIS with NSGA-II to minimize fleet costs and carbon emissions over a 16-year horizon.",
                 "Achieved a 28.37% reduction in total cost and 39.95% lower emissions compared to vanilla NSGA-II algorithm.",
-                "Reduced runtime by 36.2% using Python multiprocessing after parallelizing the algorithm."
+                "Reduced runtime by 36.2% using Python multiprocessing after parallelizing the algorithm.",
+                "Created dashboards of AWS billing data, providing clear insights into high-cost areas for cost optimization."
               ],
               githubLink: "https://github.com/yashyaks/FleetStructureOptimization"
             },
