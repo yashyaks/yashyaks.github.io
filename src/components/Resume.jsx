@@ -24,7 +24,7 @@ export default function Hero() {
               <p className="text-sm sm:text-lg">2025</p>
             </div>
             <p className='text-white'>Honors in Computational Finance</p>
-            <p className='text-white'>DJSCE, University of Mumbai (CGPA: 8.25)</p>
+            <p className='text-white'>DJSCE, University of Mumbai (CGPA: 8.36)</p>
           </section>
           <section className='mb-6'>
             <div className="flex flex-col sm:flex-row justify-between font-medium text-lg text-white">
